@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://mcchats.com/journeybuilder/execute",
+          "url": "https://srjbcustomactivity.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "2e2f7831-77cb-4097-957d-3088523552f1",
       "save": {
-        "url": "https://mcchats.com/journeybuilder/save",
+        "url": "https://srjbcustomactivity.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://mcchats.com/journeybuilder/publish",
+        "url": "https://srjbcustomactivity.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://mcchats.com/journeybuilder/stop",
+        "url": "https://srjbcustomactivity.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://mcchats.com//journeybuilder/validate",
+        "url": "https://srjbcustomactivity.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
